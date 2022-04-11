@@ -1,0 +1,955 @@
+@media screen and (min-width: 1300px) and (max-width:1367px) {
+.banner-sec-in::before {
+	right: 50px;
+}
+.comming-in-info::after {
+	left: 20px;
+}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1299px) {
+.fixed-header .navbar-brand img {
+    width: 120px;
+}
+header ul.navbar-nav a {line-height: 42px;font-size: 19px;}
+.soul_heading_text span {font-size: 28px;
+    line-height: 35px;
+}
+.soul_heading_text { font-size: 150px;
+    line-height: 100px;
+}
+.OpenSea_btn {font-size: 20px;
+    line-height: 58px;width: 187px;}
+	.OpenSea_btn i {line-height: 19px;
+}
+.cards-main-outer::before {height: 265px;
+}
+.card1 img {width: 155px;
+    height: 257px
+}
+.own_happy_soul_inner2 .own_happy_soul_left p {
+    margin: 15px 0;
+    
+}
+.own_happy_soul_inner3 .own_happy_soul_left p {
+    margin: 15px 0;
+    
+}
+.own_happy_soul_left .soul_heading_text {
+    font-size: 110px;
+    line-height: 90px;
+}
+.own_happy_soul_left p {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 30px 0 10px;
+}
+.comming_cards_outer {
+    padding: 110px  20px 35px;
+}
+.team-member-sec-inner .soul_heading_text {
+    font-size: 110px;
+    text-align: center;
+}
+.soul_heading_text span {
+    font-size: 25px;
+    line-height: 30px;
+}
+.faq_inner .soul_heading_text {
+    font-size: 110px;line-height: 95px;
+}
+.own_happy_soul_sec {
+    padding: 80px 0;
+}
+.team_outer {
+    padding: 55px 0;
+}
+.faq_inner{display: block;
+    padding: 0 40px;
+}
+.roadmap_outer {
+    padding: 70px 0;
+    overflow: hidden;
+}
+
+.banner-sec-in::before {
+	right: 50px;
+}
+.comming-in-info::after {
+	left: 20px;
+}
+.own_happy_soul_inner1::after {
+	font-size: 586px;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.soul_heading_text {
+    font-size: 140px;
+    line-height: 100px;
+}
+	.banner-sec { padding: 130px 0 15px;}
+.own_happy_soul_inner {
+    overflow: hidden;
+    align-items: center;
+}
+.fixed-header .navbar-brand img {
+    width: 120px;
+}
+header ul.navbar-nav {
+    gap: 10px;
+}
+header ul.navbar-nav a {line-height: 42px;font-size: 19px;}
+.soul_heading_text span {font-size: 28px;
+    line-height: 35px;
+}
+.OpenSea_btn {
+    font-size: 18px;
+    line-height: 53px;
+    width: 175PX;
+}
+.own_happy_soul_right .image_left_spacing {
+    margin: -100px 0 0 165px;
+}
+
+.OpenSea_btn i {
+    font-size: 15px;
+    margin-right: 3px;
+    height: 26px;
+    width: 26px;
+    line-height: 19px;
+}
+.charecters_outer {gap: 25px;
+}
+.cards-main-outer::before {height: 265px;
+}
+.card1 img {width: 155px;
+    height: 257px
+}
+.own_happy_soul_inner2 .own_happy_soul_left p {
+    margin: 15px 0;
+    
+}
+.own_happy_soul_inner3 .own_happy_soul_left p {
+    margin: 15px 0;
+    
+}
+.own_happy_soul_left .soul_heading_text {
+    font-size: 100px;
+    line-height: 85px;
+}
+.own_happy_soul_left p {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 30px 0 10px;
+}
+.own_happy_soul_inner1:after {
+    left: 0;
+    top: 0;
+    font-size: 500px;
+}
+.own_happy_soul_right img {
+    width: 60%;
+}
+.comming_cards_outer {
+    padding: 80px  20px 35px;
+}
+.team-member-sec-inner .soul_heading_text {
+    font-size: 100px;
+    
+}
+.soul_heading_text span {
+    font-size: 23px;
+    line-height: 25px;
+}
+.faq_inner .soul_heading_text {
+    font-size: 100PX;
+    line-height: 85px;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 28px;line-height: 28px;
+}
+.own_happy_soul_sec {
+    padding: 60px  0;
+}
+.faq-main .btn-link {font-size: 25PX;
+}
+.faq-main .card-header:before {height: 63px;
+}
+.team_outer {
+    padding: 55px 0;
+}
+.faq_inner{display: block;
+    padding: 0 40px;
+}
+.roadmap_outer {
+    padding: 40px 0;
+    overflow: hidden;
+}
+.team-member-sec-panel .roadmap-contents2 {
+    padding-top: 40px;
+    text-align: left;
+}
+.team-member-sec-panel .team-member-sec-inner .roadmap-content2 h4 {
+    line-height: 40px;
+    margin-top: 25px;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 26px;
+}
+.team-member-sec-inner .roadmap-content span {font-size: 15px;
+}
+.team-member-sec-panel .roadmap-content2 p {
+    font-size: 14px;	line-height: 26px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.soul_heading_text {
+    font-size: 130px;
+    line-height: 100px;
+}
+.banner-sec-in::before {right: 0;
+}
+	header {top: 20PX;
+}
+	.banner-sec { padding: 130px 0 15px;}
+.own_happy_soul_inner {
+    overflow: hidden;
+    align-items: center;
+}
+.fixed-header .navbar-brand img {
+    width: 120px;
+}
+header ul.navbar-nav {
+    gap: 10px;
+}
+header ul.navbar-nav a {
+	line-height: 52px;
+	font-size: 30px;
+}
+.soul_heading_text span {font-size: 28px;
+    line-height: 35px;
+}
+.OpenSea_btn {
+    font-size: 17px;
+    line-height: 50px;
+    width: 160px;
+}
+.charecter1  img{width:80%;}
+.own_happy_soul_right .image_left_spacing {
+    margin: -100px 0 0 115px;
+}
+
+.OpenSea_btn i {
+    font-size: 15px;
+    margin-right: 3px;
+    height: 26px;
+    width: 26px;
+    line-height: 19px;
+}
+.charecters_outer {gap: 0;
+}
+.cards-main-outer::before {
+    bottom: 200px;
+    height: 240px;
+}
+.card1 {
+    width: 40%;
+    height: auto;
+}
+.card1 img {width: 155px;
+    height: 257px
+}
+.comming_cards_outer .card1 img {width: 155px;
+    height: 257px
+}
+.own_happy_soul_inner2 .own_happy_soul_left p {
+    margin: 10px  0;
+    
+}
+.own_happy_soul_inner3 .own_happy_soul_left p {
+    margin: 10px  0;
+    
+}
+.cards_outer {
+padding-top: 155px;}
+.own_happy_soul_left .soul_heading_text {
+    font-size: 80px;
+    line-height: 70px;
+}
+.own_happy_soul_left p {
+    font-size: 13px;
+    line-height: 23px;
+    margin: 15px 0 0;
+}
+.own_happy_soul_inner1:after {left: 0;
+    top: -95px;
+   font-size: 350px;
+   
+}
+.own_happy_soul_right img {
+    width: 55%;
+}
+.comming_cards_outer {
+    padding: 80px  20px 15px;
+	    flex-wrap: wrap;
+}
+.own_happy_soul_inner2 .own_happy_soul_left .soul_heading_text {
+    margin: 0 0 20px;
+    
+}
+.comming-in-info {
+    padding: 0 0 30px;
+}
+.comming_cards_outer .card2 {
+    margin-top: 25px;
+}
+.own_happy_soul_inner3 .own_happy_soul_left .soul_heading_text {
+    margin: 0 0 20px;
+    
+}
+	
+.team-member-sec-inner .soul_heading_text {
+    font-size: 60PX;
+    z-index: 9;
+    line-height: 78px;
+    position: relative;
+}
+.soul_heading_text span {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.faq_inner .soul_heading_text {
+    font-size: 60PX;
+    line-height: 50px;
+	margin-bottom: 20PX;
+}
+.comming-in-info .soul_heading_text span {
+    font-size: 22px;
+    margin-bottom: 5px;
+    line-height: 13px;
+}
+.own_happy_soul_inner { padding: 20px 0;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 28px;line-height: 28px;
+}
+.own_happy_soul_sec {
+    padding: 20px 0 60px;
+}
+.team-member-sec-panel {padding: 75px 0;
+}
+.faq-main .btn-link {
+    font-size: 20PX;
+}
+.faq-main .card-header:before {
+    
+    
+    height: 48px;
+    font-size: 20PX;
+    line-height: 48px;
+}
+.faq-main .card-header {padding: .5rem 1rem;
+}
+.team_outer {
+    padding: 40px 0;
+}
+.faq_inner{display: block;
+    padding: 0 40px;
+}
+.faq-main .card-body {
+    padding: 1.5rem 1rem;
+}
+.faq-main .card-body p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.footer-main {
+    padding: 45px 0;
+}
+.card1 h3 span {
+    font-size: 16px;
+}
+.roadmap_outer {
+    padding: 20px  0 80PX;
+    overflow: hidden;
+}
+.card1 h3 {
+    font-size: 45PX;
+    line-height: 33px;
+}
+.team-member-sec-panel .roadmap-contents2 {
+    padding-top: 30px;
+    text-align: left;
+}
+.team-member-sec-panel .team-member-sec-inner .roadmap-content2 h4 {
+    line-height: 23px;
+    margin-top: 15px;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 17PX;
+    line-height: 19px;
+}
+.team-member-sec-panel .roadmap-contents {padding-top: 30px;
+}
+.team-member-sec-inner .roadmap-content span {
+    font-size: 12px;
+}
+.img_shape {
+    margin-bottom: 15PX;
+}
+.team-member-sec-panel .roadmap-content2 p {
+    font-size: 12px;
+    line-height: 22px;
+}
+}
+
+@media screen and (max-width: 767px){
+.soul_heading_text {
+    font-size: 90px;
+    line-height: 70px;
+}
+.banner-sec-in::before {right: 0;
+}
+	header {top: 20PX;
+}
+	.banner-sec { padding: 130px 0 15px;}
+.own_happy_soul_inner {
+    overflow: hidden;
+    align-items: center;
+}
+.fixed-header .navbar-brand img {
+    width: 120px;
+}
+header ul.navbar-nav {
+    gap: 10px;
+}
+header ul.navbar-nav a {
+	line-height: 52px;
+	font-size: 30px;
+}
+.soul_heading_text span {font-size: 28px;
+    line-height: 35px;
+}
+.OpenSea_btn {
+    font-size: 15px;
+    line-height: 45px;
+    width: 130px;
+	margin: 15px 0 20px;
+}
+.charecter1  img{width:70%;}
+.own_happy_soul_right .image_left_spacing {
+    margin: -100px 0 0 115px;
+}
+
+.OpenSea_btn i {
+    font-size: 13px;
+    margin-right: 3px;
+    height: 20px;
+    width: 20px;
+    line-height: 13px;
+}
+.charecters_outer {gap: 0;
+}
+.cards-main-outer::before {
+	bottom: 230px;
+	height: 140px;
+}
+.card1 {
+    width: 45%;
+    height: auto;
+}
+.card1 img {
+    width: 135px;
+    height: 210px;
+}
+.comming_cards_outer .card1 img {
+    width: 135px;
+    height: 210px;
+}
+.own_happy_soul_inner2 .own_happy_soul_left p {
+    margin: 10px  0;
+    
+}
+.own_happy_soul_inner3 .own_happy_soul_left p {
+    margin: 10px  0;
+    
+}
+.cards_outer {
+padding-top: 155px;}
+.own_happy_soul_left .soul_heading_text {
+    font-size: 60px;
+    line-height: 53px;
+}
+.own_happy_soul_left p {
+    font-size: 12px;
+    line-height: 21px;
+    margin: 10px 0 0;
+}
+.own_happy_soul_inner1:after {left: 0;
+    top: -95px;
+   font-size: 300px;
+   
+}
+.own_happy_soul_right img {
+    width: 55%;
+}
+.comming_cards_outer {
+    padding: 65px  20px 15px;
+	    flex-wrap: wrap;
+}
+.own_happy_soul_inner2 .own_happy_soul_left .soul_heading_text {
+    margin: 0 0 10px;
+    
+}
+.comming-in-info {
+    padding: 0 0 30px;
+}
+.own_happy_soul_sec:before {
+    background-size: cover;
+}
+.comming_cards_outer .card2 {
+    margin-top: 25px;
+}
+.own_happy_soul_inner3 .own_happy_soul_left .soul_heading_text {
+    margin: 0 0 10px;
+    
+}
+	
+.team-member-sec-inner .soul_heading_text {
+    font-size: 54px;
+    z-index: 9;
+    line-height: 58px;
+    position: relative;
+}
+.soul_heading_text span {
+    font-size: 17px;
+    line-height: 18px;
+    margin-bottom: 13px;
+}
+.faq_inner .soul_heading_text {
+    font-size: 60PX;
+    line-height: 50px;
+	margin-bottom: 20PX;
+}
+.comming-in-info .soul_heading_text span {
+    font-size: 22px;
+    margin-bottom: 5px;
+    line-height: 13px;
+}
+.own_happy_soul_inner { padding: 20px 0;flex-wrap: wrap;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 28px;line-height: 28px;
+}
+.own_happy_soul_sec {
+    padding: 20px 0 60px;
+}
+.team-member-sec-panel {padding: 35px 0;
+}
+.faq-main .btn-link {
+    font-size: 18PX;
+}
+.faq-main .card-header:before {
+    height: 45px;
+    font-size: 20PX;
+    line-height: 45px;
+}
+.faq-main .card-header {padding: .5rem 1rem;
+}
+.team_outer {
+    padding: 20px 0;
+}
+.faq_inner{display: block;
+    padding: 0 40px;
+}
+.faq-main .card-body {
+    padding: 1.5rem 1rem;
+}
+.faq-main .card-body p {
+    font-size: 12px;
+    line-height: 21px;
+}
+.team-member-sec-panel:after {
+    background-size: cover;
+	    bottom: -69px;
+}
+.team_content, .roadmap-content {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 0;
+    /* padding: 0; */
+}
+.happy_soul-footer img{width:140px;}
+.footer-main {
+    padding: 65px 0;
+}
+.card1 h3 span {
+    font-size: 14px;
+}
+.roadmap_outer {
+    padding: 20px  0 90PX;
+    overflow: hidden;
+}
+.card1 h3 {
+    font-size: 33PX;
+    line-height: 23px;
+}
+.team-member-sec-panel .roadmap-contents2 {
+    padding-top: 30px;
+    text-align: left;
+}
+.team-member-sec-panel .team-member-sec-inner .roadmap-content2 h4 {
+    line-height: 23px;
+    margin-top: 15px;
+}
+.team-member-sec-inner .roadmap-content h4 {
+    font-size: 17PX;
+    line-height: 19px;
+}
+.team-member-sec-panel .roadmap-contents {padding-top: 30px;
+}
+.team-member-sec-inner .roadmap-content span {
+    font-size: 12px;
+}
+.img_shape {
+    margin-bottom: 15PX;
+}
+.team-member-sec-panel .roadmap-content2 p {
+    font-size: 12px;
+    line-height: 22px;
+}
+}
+
+@media only screen and (max-width:639px){
+	.own_happy_soul_left .soul_heading_text {
+    font-size: 39px;
+    line-height: 32px;
+}
+.own_happy_soul_left .soul_heading_text br {
+   display:none;
+}
+.OpenSea_btn {
+    font-size: 15px;
+    line-height: 40px;
+    width: 120px;
+    margin: 15px 0 20px;
+}
+.soul_heading_text {
+    font-size: 80px;
+    line-height: 60px;
+}
+.own_happy_soul_left, .own_happy_soul_right {
+    z-index: 2;
+    text-align: center;
+    
+}
+.own_happy_soul_right {
+    margin-top: 20px;
+    
+}
+}
+@media only screen and (max-width:575px){
+    header {
+        top: 10PX;
+    }
+    .fixed-header .navbar-brand img {
+        width: 120px;
+    }
+    .banner-sec::after {
+        display: none;
+    }
+	.own_happy_soul_inner1:after {
+    left: 0;
+    top: 0;
+    font-size: 250px;
+}
+	.charecter1  img {
+    width: 80%;
+}
+.cards-main-outer {  padding: 0 0 30px;
+}
+.cards_outer {
+    gap: 2%;
+}
+.cards_outer {
+    padding-top: 100px;
+}
+.comming_cards_outer .card1 img {
+    width: 90px;
+    height: 146px;
+}
+.card1 {
+    width: 48%;
+    height: auto;
+}
+.cards-main-outer::before {
+	bottom: 150px;
+	height: 120px;
+	background-size: cover;
+	z-index: 9;
+}
+}
+@media only screen and (max-width:479px) {	
+.soul_heading_text {
+    font-size: 50px;
+    line-height: 35px;
+}
+.charecter img, .charecter3 img {
+    margin-top: 45px;
+}
+.OpenSea_btn {
+    font-size: 12px;
+    line-height: 35px;
+    width: 100px;
+    margin: 10px 0 10px;
+}
+.own_happy_soul_left .soul_heading_text {
+    font-size: 28px;
+    line-height: 25px;
+}
+.team-member-sec-inner .soul_heading_text {
+    font-size: 37px;
+    z-index: 999;
+    line-height: 42px;
+    position: relative;
+}
+.own_happy_soul_inner1:after {
+    left: 0;
+    top: 0;
+    font-size: 150px;
+}
+.own_happy_soul_right .image_left_spacing {
+    margin: -45px 0 0 120px;
+}
+.cards-main-outer::before {
+	top: -120px;
+	height: 60px;
+	background-size: cover;
+	bottom: auto;
+}
+.banner-sec {
+	padding: 130px 0 160px;
+}
+.faq_inner {
+    display: block;
+    padding: 0 10px;
+}
+.team-member-sec-panel .roadmap-contents2 {
+    padding-top: 30px;
+    text-align: center;
+}
+.soul_heading_text span {
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.comming_cards_outer{padding-top: 25px!important;}
+.cards_outer {
+    padding-top: 0;
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.team-member-sec-panel .roadmap-contents {
+	padding-top: 30px;
+	display: block;
+}
+.team_content, .roadmap-content {
+	width: 90%;
+}
+.banner-sec-in::before {
+	display: none;
+}
+.own_happy_soul_sec {
+    padding: 0 0 60px;
+}
+.cards-main-outer {
+    padding: 0 0 0;
+}
+.card1 img {
+    width: 80px;
+    height: 136px;
+}
+.faq_inner .soul_heading_text {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 10PX;
+}
+.comming-in-info .soul_heading_text span {
+    font-size: 15PX;
+    margin-bottom: 0;
+    line-height: 13px;
+}
+.card1 {
+    width: 80%;
+    height: auto;
+    /* display: flex; */
+    margin: 29px auto;
+}}
+
+
+
+
+@media screen and (max-width: 1299px){
+	.comming-in-info:before {left: 0;
+    width: 100%;
+    height: 440px;
+}
+.comming-in-info::after {left: 15px;
+}
+.team-member-sec-main:before {top: 0;
+}
+}
+@media screen and (max-width: 991px){
+    .comming-in-info::before {
+        left: 0;
+        width: 80%;
+        height: 70px;
+        background-size: contain;
+        top: 70px;
+    }
+    .comming-in-info::after {
+        left: 15px;
+        z-index: 99;
+        width: 90px;
+        background-size: 100%;
+        top: 40px;
+    }
+.team-member-sec-main::before {
+	top: 40px;
+	background-size: 100%;
+	z-index: 98;
+	width: 150px;
+	height: 100px;
+}
+/*cloud end*/ 
+	.navbar-nav {position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-o-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);}
+ul.navbar-nav a {
+	font-size: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0 15px;color: #fff;
+}
+
+#navbarNav .mint-btn a, a.custom-btn {
+	font-size: 15.42px;
+}
+header.fixed-header .navbar-brand img {
+	max-width: 95%;
+}
+.navbar-toggler {
+	display: block !important;
+	position: absolute;
+	z-index: 999999;
+	/* background: #f00; */
+	right: 0;
+	background-image: none;
+	background-size: cover;
+	padding: 0;
+	border: 0px;
+	display: flex !important; 
+	flex-direction: column;
+	width: 39px;
+}
+ /*#navbarNav {
+	position: fixed;
+	right: -100%;
+	top: 0;
+	background: #0f0520;
+	border-radius: 0px;
+	padding: 70px;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	box-sizing: border-box;
+	background-size:cover;
+}
+#navbarNav.show
+{
+	display:block;
+	right: 0
+} */
+#navbarNav {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #eb8320;
+	top: 0;
+	display: block;
+	padding: 70px;
+	z-index: 99999;
+	transition: .3s all ease;
+	-webkit-transition: .3s all ease;
+	right: -100%;
+	box-sizing: border-box;
+}
+#navbarNav.show {
+	display: block;
+	right: 0;
+}
+.navbar-toggler .navbar-toggler-icon {
+	background: #f15a24;
+	height: 4px;
+	margin: 0 0 6px 0;
+	float: left;
+	width: 100%;
+	border-radius: 0px;
+	float: left;
+	transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+}
+.header-open .navbar-toggler-icon {
+	background: #fff;
+}
+.navbar-toggler .navbar-toggler-icon:last-child
+{
+	margin-bottom:0px;
+}
+.navbar-expand-lg .navbar-nav li {
+    width: auto;
+    text-align: center;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+}
+li.nav-item.mint-btn {
+	margin-left: 0;
+	margin-top: 20px;
+}
+.navbar-toggler.active .navbar-toggler-icon:nth-child(3) {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(134deg);
+	left: 0px;
+	position: relative;
+	top: -5px;
+	width: 34px;
+}
+.navbar-toggler.active .navbar-toggler-icon:nth-child(1) {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(44deg);
+	left: 0px;
+	position: relative;
+	top: 5px;
+	width: 34px;
+}
+.navbar-toggler.active .navbar-toggler-icon:nth-child(2) 
+{
+	display: none;
+}
+header.header-open {
+    height: 100%;
+    overflow-y: auto;
+}	
+.menu-last-item {
+    padding-right: 0;
+}
+
+}
