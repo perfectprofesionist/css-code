@@ -1,1 +1,805 @@
-sss
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	;
+}
+
+body {
+	
+}
+header,footer{overflow:hidden;}
+.container {
+	max-width: 1300px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a,
+a::after,
+a::before {
+	transition: .3s all ease;
+	-webkit-transition: .3s all ease;
+}
+
+
+
+
+/*HEADER-CSS-START-HERE*/
+
+header {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	right: 0;
+	z-index: 9;
+}
+
+header.fixed-header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5px 0 !important;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+}
+
+.fixed-header .navbar-brand img {
+	width: 140px;
+}
+
+.fixed-header ul.navbar-nav a {
+	color: #fff;
+}
+
+header ul.navbar-nav {
+	gap: 15px;
+	width: 100%;
+	justify-content: right;
+}
+
+header ul.navbar-nav a {
+	line-height: 45px;
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: -0.2px;
+	color: #364652;
+	text-transform: capitalize;
+	padding: 0;
+	border-radius: 10px;
+}
+
+header .zerk-nav .navbar-nav .nav-link {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
+header ul.navbar-nav a:hover {
+	color: #fff;
+	background: #f15a24;
+}
+
+button:focus {
+	outline: none;
+}
+
+
+/*HEADER-CSS-END-HERE*/
+
+
+/*BANNER-CSS-START-HERE*/
+
+.banner-sec-in::after {
+	content: "";
+	position: absolute;
+	left: 150px;
+	top: 40px;
+	width: 998px;
+	height: 440px;
+	background: url(../images/big_cloud.png)no-repeat;
+	background-size: cover;
+}
+
+.banner-sec-in::before {
+	content: "";
+	position: absolute;
+	right: -75px;
+	top: 0;
+	width: 112px;
+	height: 56px;
+	background: url(../images/img_flying_birds.png)no-repeat;
+	background-size: cover;
+}
+
+.banner-sec:before {
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 75px;
+	width: 240px;
+	height: 120px;
+	background: url(../images/img_top_left_cloud.png)no-repeat;
+	background-size: cover;
+}
+
+.banner-sec:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 404px;
+	height: 143px;
+	background: url(../images/img_top_right_cloud.png)no-repeat;
+	background-size: cover;
+}
+
+.banner-sec {
+	overflow: hidden;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9cedfe+0,f6f4da+100 */
+	background: #9cedfe;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #9cedfe 0%, #f6f4da 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9cedfe 0%, #f6f4da 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9cedfe 0%, #f6f4da 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cedfe', endColorstr='#f6f4da', GradientType=0);
+	/* IE6-9 */
+	padding: 150px 0 15px;
+	position: relative;
+	width: 100%;
+}
+
+.banner-sec-in {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.banner-in-info {
+	z-index: 3;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+.charecters_outer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	z-index: 5;
+	gap: 50px;
+}
+
+.soul_heading_text span {
+	width: 100%;
+	display: block;
+	font-size: 33px;
+	line-height: 40px;
+	margin-bottom: 30px;
+	z-index: 4;
+}
+
+.soul_heading_text {
+	width: 100%;
+	display: block;
+	font-family: 'Staatliches', cursive;
+	font-style: normal;
+	font-weight: 400;
+	color: #364652;
+	font-size: 171px;
+	line-height: 120px;
+}
+
+.OpenSea_btn img {
+	width: 26px;
+	margin-top: -7px;
+}
+
+.OpenSea_btn {
+	display: inline-block;
+	font-size: 22px;
+	line-height: 63px;
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin: 33px 0 20px;
+	text-transform: uppercase;
+	background: #eb8320;
+	width: 212px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 6px #e7e8e8;
+}
+
+.OpenSea_btn_2 {
+	margin-left: 10px;
+	width: 182px;
+}
+
+.OpenSea_btn:hover {
+	color: #eb8320;
+	text-decoration: none;
+	background: #FFFFFF;
+}
+
+.OpenSea_btn:hover i {
+	color: #fff;
+	background: #eb8320;
+}
+
+.OpenSea_btn i {
+	color: #eb8320;
+	background: #fff;
+	padding: 5px;
+	font-size: 17px;
+	border-radius: 50%;
+	margin-right: 5px;
+	height: 28px;
+	width: 28px;
+	line-height: 25px;
+}
+
+.cards_outer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	gap: 30px;
+	z-index: 6;
+	padding-top: 180px;
+	position: relative;
+	z-index: 9999;
+}
+
+.card1 {
+	padding-left: 45px;
+	text-align: left;
+	z-index: 8;
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 395px;
+	height: 206px;
+	box-shadow: 0px 3px 28px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a6ebf3+0,dcd6aa+100 */
+	background: #a6ebf3;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #a6ebf3 0%, #dcd6aa 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a6ebf3 0%, #dcd6aa 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a6ebf3 0%, #dcd6aa 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ebf3', endColorstr='#dcd6aa', GradientType=0);
+	/* IE6-9 */
+}
+
+.card2 {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dcd6aa+0,a6ebf3+100 */
+	background: #dcd6aa;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #dcd6aa 0%, #a6ebf3 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #dcd6aa 0%, #a6ebf3 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #dcd6aa 0%, #a6ebf3 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcd6aa', endColorstr='#a6ebf3', GradientType=0);
+	/* IE6-9 */
+}
+
+.card1:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url(../images/img_clouds.png)no-repeat;
+	z-index: -1;
+	background-size: cover;
+}
+
+.card1 h3 {
+	width: 50%;
+	display: block;
+	font-family: 'Staatliches', cursive;
+	color: #364652;
+	font-size: 69px;
+	line-height: 45px;
+}
+
+.card1 h3 span {
+	width: 100%;
+	display: block;
+	font-size: 23px;
+}
+.cards-main-outer {
+	float: left;
+	width: 100%;
+	padding: 0 0 70px;
+	margin-top: -80px;
+	position: relative;
+	background: #f6f4da;
+	/* min-height: 493px; */
+	overflow: initial;
+}
+.cards-main-outer::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	bottom: 195px;
+	width: 100%;
+	height: 300px;
+	background: url(../images/img_gradient_bg.png)no-repeat;
+	background-size: 100% 100%;
+	z-index: 99;
+}
+
+
+.charecter img,
+.charecter3 img {
+	margin-top: 145px;
+}
+
+.banner-sec_before2 {
+	position: relative;
+	display: block;
+}
+
+
+/*BANNER-CSS-END-HERE*/
+
+
+/* own_happy_soul section start */
+
+.own_happy_soul_left .soul_heading_text {
+	font-size: 127px;
+	line-height: 100px;
+}
+
+.own_happy_soul_inner {
+	display: flex;
+	width: 100%;
+	padding: 60px 0;
+}
+
+.own_happy_soul_sec {
+    background: #f6f4da;
+    padding: 126px 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+		
+}
+.own_happy_soul_sec:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    bottom: -110px;
+    width: 100%;
+    height: 163px;
+    background: url(../images/img_blue_bg.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.card1 h3 {
+    font-size: 55px;
+    line-height: 40px;
+}
+.card1 h3 span {font-size: 21px;
+}
+
+.own_happy_soul_left,
+.own_happy_soul_right {
+	z-index: 2;
+}
+
+.own_happy_soul_left p {
+	font-size: 15px;
+	line-height: 28px;
+	font-family: 'Akko Pro';
+	color: #364652;
+	margin: 50px 0 17px;
+}
+
+
+.own_happy_soul_left .OpenSea_btn:hover {
+	color: #364652;
+	text-decoration: none;
+	background: #a6eaf3;
+}
+
+.own_happy_soul_left .OpenSea_btn:hover i {
+	color: #a6eaf3;
+	background: #364652;
+}
+
+.own_happy_soul_inner1 {
+	position: relative;
+}
+
+.own_happy_soul_inner2 {
+	flex-direction: row-reverse;
+}
+
+.own_happy_soul_inner2 .own_happy_soul_left p {
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.own_happy_soul_inner2 .own_happy_soul_left .soul_heading_text {
+	margin: 0 0 40px;
+	display: inline-block;
+}
+
+.own_happy_soul_inner3 .own_happy_soul_left p {
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.own_happy_soul_inner3 .own_happy_soul_left .soul_heading_text {
+	margin: 0 0 40px;
+	display: inline-block;
+}
+
+.own_happy_soul_inner3 {
+	padding: 80px 0;
+}
+
+.own_happy_soul_right img {
+	display: inline-block;
+	border: 10px solid #fff;
+}
+
+.own_happy_soul_right .image_left_spacing {
+	margin: -100px 0 0 215px;
+}
+
+.own_happy_soul_inner1:after {
+	content: "Souls";
+	position: absolute;
+	left: -30px;
+	top: -240px;
+	font-family: 'Againts';
+	font-size: 666px;
+	color: #fff;
+	z-index: 1;
+}
+
+
+/* own_happy_soul section END */
+
+
+/*RAOADMAP SEC START*/
+
+.roadmap-sec-inner .soul_heading_text {
+	font-size: 127px;
+	text-align: center;
+}
+
+.roadmap-sec-panel .roadmap-contents {
+	display: flex;
+	padding: 80px 0 50px;
+}
+
+.roadmap-sec-panel .roadmap-content {
+	display: inline-block;
+}
+
+.roadmap-sec-panel h4 span {
+	font-size: 22px;
+	width: 100%;
+	display: block;
+}
+
+.roadmap-sec-panel h4 {
+	color: #364652;
+	font-size: 47px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Staatliches', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+.roadmap-sec-panel p {
+	color: #364652;
+	font-size: 15px;
+	font-family: 'Akko Pro';
+	line-height: 23px;
+	padding: 0;
+	margin: 22px 0 0;
+}
+
+.roadmap-sec-panel .roadmap-btn {
+	width: 100%;
+	display: inline-block;
+}
+
+
+/*RAOADMAP SEC END*/
+
+
+/*TEAM MEMBER SEC START*/
+
+.comming-in-info:before {
+    content: "";
+    position: absolute;
+    left: 150px;
+    top: 40px;
+    width: 998px;
+    height: 440px;
+    background: url(../images/big_cloud.png)no-repeat;
+    background-size: cover;
+	z-index:2;
+}
+.team-member-sec-main{position:relative;}
+.comming-in-info::after {
+    content: "";
+    position: absolute;
+    left: -75px;
+    top: 0;
+    width: 112px;
+    height: 56px;
+    background: url(../images/img_flying_birds.png)no-repeat;
+    background-size: cover;
+}
+.team-member-sec-main:before{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 75px;
+    width: 240px;
+    height: 120px;
+    background: url(../images/img_top_left_cloud.png)no-repeat;
+    background-size: cover;
+}
+.comming-in-info {
+	display: block;
+	width: 100%;
+	text-align: center;
+	position:relative;
+}
+
+.comming-in-info .soul_heading_text {
+	line-height: 75px;
+}
+
+.comming-in-info .soul_heading_text span {
+	font-size: 33px;
+}
+
+.team-member-sec-panel {
+	position:relative;
+	padding: 120px 0;
+	overflow:hidden;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9cedfe+0,f6f4da+100 */
+	background: #9cedfe;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #9cedfe 0%, #f6f4da 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9cedfe 0%, #f6f4da 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9cedfe 0%, #f6f4da 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cedfe', endColorstr='#f6f4da', GradientType=0);
+	/* IE6-9 */
+}
+
+.team-member-sec-inner .soul_heading_text {
+	font-size: 127px;
+	text-align: center;
+}
+
+.team-member-sec-panel .roadmap-contents {
+	flex-flow: wrap;
+	justify-content: center;
+	display: flex;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.team-member-sec-panel .roadmap-contents2 {
+	padding-top: 58px;
+	text-align: left;
+}
+
+.team-member-sec-panel .roadmap-content2 p {
+	font-size: 15px;
+	font-family: 'Akko Pro';
+	margin: 0;
+	color: #364652;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.roadmap-sec-panel .roadmap-content img {
+	max-width: 90%;
+	margin-bottom: 40px;
+}
+
+.img_shape {
+	margin-bottom: 30px;
+}
+.card1 img {
+	margin-top: -50px;
+	width: 155px;
+	height: 257px;
+	object-fit: cover;
+}
+
+.comming_cards_outer .card1 {
+	box-shadow: 1px 1px 6px #b4edf9;
+}
+
+.team_outer .soul_heading_text span {
+	margin: 0
+}
+
+.team_content img {
+	border-radius: 10px;
+}
+
+.team-member-sec-panel .team-member-sec-inner .roadmap-content2 h4 {
+	line-height: 50px;
+	margin-top: 25px;
+}
+
+.team-member-sec-inner .roadmap-content h4 {
+	font-size: 33px;
+	font-family: 'Staatliches', cursive;
+	margin: 0;
+	line-height: 35px;
+}
+
+.team-member-sec-inner .roadmap-content span {
+	width: 100%;
+	display: block;
+	font-size: 16px;
+	font-family: 'Staatliches', cursive;
+}
+
+.comming_cards_outer {
+	padding: 110px  0 35px;
+}
+
+.comming-in-info .OpenSea_btn:hover {
+	color: #364652;
+	text-decoration: none;
+	background: #fff;
+}
+
+.comming-in-info .OpenSea_btn:hover i {
+	color: #fff;
+	background: #364652;
+}
+
+.comming-in-info {
+    padding: 0 0 90px;
+}
+
+.team_outer {
+	padding: 90px 0;
+}
+
+.roadmap_outer {
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+.own_happy_soul_sec1{overflow:hidden;}
+/*TEAM MEMBER SEC END*/
+
+/*Faq Css Start */
+	.faq-main .btn-link:hover {text-decoration:none;}
+	.faq-main .btn-link:active {text-decoration:none;}
+	.faq-main .card-header h2 {padding-left:50px;}
+	.faq-main .card-header:before {
+    content: "q";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 50px;
+    text-align: center;
+    height: 72px;
+    background: #364652;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    line-height: 70px;
+    border-radius: 5px 0 0 0;
+}
+	.faq-main .card-header {
+		position:relative;
+    padding: .75rem 2rem;
+    margin-bottom: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cae8e5+0,d6ddc0+100 */
+background: #cae8e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #cae8e5 0%, #d6ddc0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #cae8e5 0%,#d6ddc0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #cae8e5 0%,#d6ddc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cae8e5', endColorstr='#d6ddc0',GradientType=0 ); /* IE6-9 */
+
+    border:none;
+}
+.faq-main .card-body {
+    padding: 2.5rem 2rem;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+    margin-left: 50px;
+}	
+	.faq-main .card-body p{
+    color: #364652;
+	font-size:16px;
+	padding: 0;
+	line-height:26px;
+	font-family: 'Akko Pro';}
+	.faq-main .accordion>.card>.card-header {
+    border-radius: 5px 5px 0 0;
+}
+.faq-main .accordion>.card{
+    background: transparent;
+    border: 0;
+	margin-bottom: 8px;
+	z-index:9;
+}
+	.faq-main .btn-link {
+		text-decoration:none;
+		box-shadow: none;
+    font-weight: 400;
+    color: #364652;
+	font-size:30px;
+	padding: 0;
+	font-family: 'Staatliches', cursive;
+}
+.faq-main {
+    display: block;
+    width: 100%;
+    background: #f58033;
+    overflow: hidden;
+}
+
+.faq_inner .soul_heading_text {
+    font-size: 127px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 9;
+}
+	.team-member-sec-panel:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	bottom: -55px;
+	width: 100%;
+	height: 163px;
+	background: url(../images/img_orange_bg.png)no-repeat;
+	background-size: 100% 100%;
+}
+/* Faq Css End */
+
+/* Footer Css Start */
+
+.footer-main {
+	background: #f58033;
+	text-align: center;
+	padding: 75px 0;
+}
+/*Footer Css End */
